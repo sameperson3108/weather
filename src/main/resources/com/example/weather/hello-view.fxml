@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="322.0" prefWidth="198.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.weather.HelloController">
+   <children>
+      <Text fx:id="temp_info" layoutX="19.0" layoutY="194.0" strokeType="OUTSIDE" strokeWidth="0.0" text="температура" />
+      <TextField fx:id="latitude" layoutX="24.0" layoutY="52.0" prefHeight="26.0" prefWidth="149.0" promptText="Введите широту" />
+      <TextField fx:id="longitude" layoutX="23.0" layoutY="88.0" promptText="Введите долготу" />
+      <Button fx:id="getData" layoutX="73.0" layoutY="125.0" mnemonicParsing="false" text="Узнать" />
+      <Text layoutX="54.0" layoutY="38.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ПОГОДА">
+
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
